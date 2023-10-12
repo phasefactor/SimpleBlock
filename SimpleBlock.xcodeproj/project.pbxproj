@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE53AA192AD8421C004355CB /* SimpleBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53AA182AD8421C004355CB /* SimpleBlockApp.swift */; };
+		CE53AA1B2AD8421C004355CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53AA1A2AD8421C004355CB /* ContentView.swift */; };
+		CE53AA1D2AD8421D004355CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE53AA1C2AD8421D004355CB /* Assets.xcassets */; };
+		CE53AA212AD8421D004355CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE53AA202AD8421D004355CB /* Preview Assets.xcassets */; };
+		CE53AA2E2AD8576F004355CB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53AA2D2AD8576F004355CB /* SafariWebExtensionHandler.swift */; };
+		CE53AA312AD8576F004355CB /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = CE53AA302AD8576F004355CB /* _locales */; };
+		CE53AA332AD8576F004355CB /* images in Resources */ = {isa = PBXBuildFile; fileRef = CE53AA322AD8576F004355CB /* images */; };
+		CE53AA352AD8576F004355CB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CE53AA342AD8576F004355CB /* manifest.json */; };
+		CE53AA372AD8576F004355CB /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = CE53AA362AD8576F004355CB /* background.js */; };
+		CE53AA392AD8576F004355CB /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = CE53AA382AD8576F004355CB /* content.js */; };
+		CE53AA3B2AD8576F004355CB /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = CE53AA3A2AD8576F004355CB /* popup.html */; };
+		CE53AA3D2AD8576F004355CB /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = CE53AA3C2AD8576F004355CB /* popup.css */; };
+		CE53AA3F2AD8576F004355CB /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = CE53AA3E2AD8576F004355CB /* popup.js */; };
+		CE53AA432AD8576F004355CB /* SimpleBlock-iOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CE53AA2B2AD8576F004355CB /* SimpleBlock-iOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE53AA492AD8580C004355CB /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = CE53AA482AD8580C004355CB /* rules.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE53AA412AD8576F004355CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE53AA0D2AD8421C004355CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE53AA2A2AD8576F004355CB;
+			remoteInfo = "SimpleBlock-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE53AA472AD8576F004355CB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CE53AA432AD8576F004355CB /* SimpleBlock-iOS.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE53AA152AD8421C004355CB /* SimpleBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE53AA182AD8421C004355CB /* SimpleBlockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBlockApp.swift; sourceTree = "<group>"; };
+		CE53AA1A2AD8421C004355CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE53AA1C2AD8421D004355CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE53AA1E2AD8421D004355CB /* SimpleBlock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleBlock.entitlements; sourceTree = "<group>"; };
+		CE53AA202AD8421D004355CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE53AA2B2AD8576F004355CB /* SimpleBlock-iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SimpleBlock-iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE53AA2D2AD8576F004355CB /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		CE53AA302AD8576F004355CB /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		CE53AA322AD8576F004355CB /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		CE53AA342AD8576F004355CB /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		CE53AA362AD8576F004355CB /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		CE53AA382AD8576F004355CB /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		CE53AA3A2AD8576F004355CB /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		CE53AA3C2AD8576F004355CB /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		CE53AA3E2AD8576F004355CB /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		CE53AA402AD8576F004355CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE53AA482AD8580C004355CB /* rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rules.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE53AA122AD8421C004355CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE53AA282AD8576F004355CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE53AA0C2AD8421C004355CB = {
+			isa = PBXGroup;
+			children = (
+				CE53AA172AD8421C004355CB /* SimpleBlock */,
+				CE53AA2C2AD8576F004355CB /* SimpleBlock-iOS */,
+				CE53AA162AD8421C004355CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE53AA162AD8421C004355CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE53AA152AD8421C004355CB /* SimpleBlock.app */,
+				CE53AA2B2AD8576F004355CB /* SimpleBlock-iOS.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE53AA172AD8421C004355CB /* SimpleBlock */ = {
+			isa = PBXGroup;
+			children = (
+				CE53AA182AD8421C004355CB /* SimpleBlockApp.swift */,
+				CE53AA1A2AD8421C004355CB /* ContentView.swift */,
+				CE53AA1C2AD8421D004355CB /* Assets.xcassets */,
+				CE53AA1E2AD8421D004355CB /* SimpleBlock.entitlements */,
+				CE53AA1F2AD8421D004355CB /* Preview Content */,
+			);
+			path = SimpleBlock;
+			sourceTree = "<group>";
+		};
+		CE53AA1F2AD8421D004355CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE53AA202AD8421D004355CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE53AA2C2AD8576F004355CB /* SimpleBlock-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CE53AA2D2AD8576F004355CB /* SafariWebExtensionHandler.swift */,
+				CE53AA402AD8576F004355CB /* Info.plist */,
+				CE53AA2F2AD8576F004355CB /* Resources */,
+			);
+			path = "SimpleBlock-iOS";
+			sourceTree = "<group>";
+		};
+		CE53AA2F2AD8576F004355CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE53AA302AD8576F004355CB /* _locales */,
+				CE53AA322AD8576F004355CB /* images */,
+				CE53AA342AD8576F004355CB /* manifest.json */,
+				CE53AA362AD8576F004355CB /* background.js */,
+				CE53AA382AD8576F004355CB /* content.js */,
+				CE53AA3A2AD8576F004355CB /* popup.html */,
+				CE53AA3C2AD8576F004355CB /* popup.css */,
+				CE53AA3E2AD8576F004355CB /* popup.js */,
+				CE53AA482AD8580C004355CB /* rules.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE53AA142AD8421C004355CB /* SimpleBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE53AA242AD8421D004355CB /* Build configuration list for PBXNativeTarget "SimpleBlock" */;
+			buildPhases = (
+				CE53AA112AD8421C004355CB /* Sources */,
+				CE53AA122AD8421C004355CB /* Frameworks */,
+				CE53AA132AD8421C004355CB /* Resources */,
+				CE53AA472AD8576F004355CB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE53AA422AD8576F004355CB /* PBXTargetDependency */,
+			);
+			name = SimpleBlock;
+			productName = SimpleBlock;
+			productReference = CE53AA152AD8421C004355CB /* SimpleBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE53AA2A2AD8576F004355CB /* SimpleBlock-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE53AA442AD8576F004355CB /* Build configuration list for PBXNativeTarget "SimpleBlock-iOS" */;
+			buildPhases = (
+				CE53AA272AD8576F004355CB /* Sources */,
+				CE53AA282AD8576F004355CB /* Frameworks */,
+				CE53AA292AD8576F004355CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimpleBlock-iOS";
+			productName = "SimpleBlock-iOS";
+			productReference = CE53AA2B2AD8576F004355CB /* SimpleBlock-iOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE53AA0D2AD8421C004355CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CE53AA142AD8421C004355CB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CE53AA2A2AD8576F004355CB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = CE53AA102AD8421C004355CB /* Build configuration list for PBXProject "SimpleBlock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE53AA0C2AD8421C004355CB;
+			productRefGroup = CE53AA162AD8421C004355CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE53AA142AD8421C004355CB /* SimpleBlock */,
+				CE53AA2A2AD8576F004355CB /* SimpleBlock-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE53AA132AD8421C004355CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE53AA212AD8421D004355CB /* Preview Assets.xcassets in Resources */,
+				CE53AA1D2AD8421D004355CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE53AA292AD8576F004355CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE53AA372AD8576F004355CB /* background.js in Resources */,
+				CE53AA3D2AD8576F004355CB /* popup.css in Resources */,
+				CE53AA3B2AD8576F004355CB /* popup.html in Resources */,
+				CE53AA492AD8580C004355CB /* rules.json in Resources */,
+				CE53AA332AD8576F004355CB /* images in Resources */,
+				CE53AA352AD8576F004355CB /* manifest.json in Resources */,
+				CE53AA312AD8576F004355CB /* _locales in Resources */,
+				CE53AA392AD8576F004355CB /* content.js in Resources */,
+				CE53AA3F2AD8576F004355CB /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE53AA112AD8421C004355CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE53AA1B2AD8421C004355CB /* ContentView.swift in Sources */,
+				CE53AA192AD8421C004355CB /* SimpleBlockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE53AA272AD8576F004355CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE53AA2E2AD8576F004355CB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE53AA422AD8576F004355CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE53AA2A2AD8576F004355CB /* SimpleBlock-iOS */;
+			targetProxy = CE53AA412AD8576F004355CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE53AA222AD8421D004355CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE53AA232AD8421D004355CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CE53AA252AD8421D004355CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleBlock/SimpleBlock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleBlock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.phasefactor.SimpleBlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE53AA262AD8421D004355CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleBlock/SimpleBlock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleBlock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.phasefactor.SimpleBlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE53AA452AD8576F004355CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SimpleBlock-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SimpleBlock-iOS";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.phasefactor.SimpleBlock.SimpleBlock-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE53AA462AD8576F004355CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SimpleBlock-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SimpleBlock-iOS";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.phasefactor.SimpleBlock.SimpleBlock-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE53AA102AD8421C004355CB /* Build configuration list for PBXProject "SimpleBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE53AA222AD8421D004355CB /* Debug */,
+				CE53AA232AD8421D004355CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE53AA242AD8421D004355CB /* Build configuration list for PBXNativeTarget "SimpleBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE53AA252AD8421D004355CB /* Debug */,
+				CE53AA262AD8421D004355CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE53AA442AD8576F004355CB /* Build configuration list for PBXNativeTarget "SimpleBlock-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE53AA452AD8576F004355CB /* Debug */,
+				CE53AA462AD8576F004355CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE53AA0D2AD8421C004355CB /* Project object */;
+}
