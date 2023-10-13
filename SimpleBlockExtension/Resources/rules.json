@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "regexFilter": ".*\\.amazon-adsystem\\.com/.*",
+            "resourceTypes": [ "image", "script" ]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "regexFilter": ".*\\.doubleclick\\.net/.*",
+            "resourceTypes": [ "image", "script" ]
+        }
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "regexFilter": ".*\\.googlesyndication\\.com/.*",
+            "resourceTypes": [ "image", "script" ]
+        }
+    }
+]

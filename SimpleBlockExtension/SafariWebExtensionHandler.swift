@@ -1,6 +1,6 @@
 //
 //  SafariWebExtensionHandler.swift
-//  SimpleBlock-iOS
+//  SimpleBlockExtension
 //
 //  Created by user on 10/12/23.
 //
