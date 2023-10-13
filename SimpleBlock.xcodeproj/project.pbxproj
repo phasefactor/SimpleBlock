@@ -22,6 +22,7 @@
 		CE7481EF2AD8AD5E00EAB57F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = CE7481EE2AD8AD5E00EAB57F /* popup.js */; };
 		CE7481F32AD8AD5E00EAB57F /* SimpleBlockExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CE7481DB2AD8AD5E00EAB57F /* SimpleBlockExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CE7481FB2AD8AF2F00EAB57F /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = CE7481FA2AD8AF2F00EAB57F /* rules.json */; };
+		CE74823B2AD9794E00EAB57F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE74823A2AD9794E00EAB57F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		CE7481F02AD8AD5E00EAB57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE7481FA2AD8AF2F00EAB57F /* rules.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rules.json; sourceTree = "<group>"; };
 		CE7482392AD8D66800EAB57F /* SimpleBlockExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleBlockExtension.entitlements; sourceTree = "<group>"; };
+		CE74823A2AD9794E00EAB57F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		CE7481BC2AD8AD3B00EAB57F = {
 			isa = PBXGroup;
 			children = (
+				CE74823A2AD9794E00EAB57F /* README.md */,
 				CE7481C72AD8AD3B00EAB57F /* SimpleBlock */,
 				CE7481DC2AD8AD5E00EAB57F /* SimpleBlockExtension */,
 				CE7481C62AD8AD3B00EAB57F /* Products */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE74823B2AD9794E00EAB57F /* README.md in Resources */,
 				CE7481D12AD8AD3C00EAB57F /* Preview Assets.xcassets in Resources */,
 				CE7481CD2AD8AD3C00EAB57F /* Assets.xcassets in Resources */,
 			);

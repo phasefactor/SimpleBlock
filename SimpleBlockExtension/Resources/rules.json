@@ -25,5 +25,14 @@
             "regexFilter": ".*\\.googlesyndication\\.com/.*",
             "resourceTypes": [ "image", "script" ]
         }
+    },
+    {
+        "id": 4,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "regexFilter": ".*\\.google-analytics\\.com/.*",
+            "resourceTypes": [ "image", "script" ]
+        }
     }
 ]
