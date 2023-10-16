@@ -17,11 +17,15 @@
     "background": {
         "service_worker": "background.js"
     },
-
-    "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
-    }],
+    
+    
+    "content_scripts": [
+        {
+            "js": [ "content.js" ],
+            "matches": [ "https://www.youtube.com/*" ],
+            "run_at": "document_end"
+        }
+    ],
 
     "action": {
         "default_popup": "popup.html",
