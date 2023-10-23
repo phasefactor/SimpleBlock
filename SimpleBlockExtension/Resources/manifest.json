@@ -42,9 +42,9 @@
     "declarative_net_request" : {
         "rule_resources" : [
             {
-                "id":       "test",
+                "id":       "URL",
                 "enabled":  true,
-                "path":     "rules.json"
+                "path":     "url_rules.json"
             }
         ]
     },
