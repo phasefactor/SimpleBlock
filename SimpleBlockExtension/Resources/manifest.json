@@ -21,7 +21,8 @@
     
     "content_scripts": [
         {
-            "js": [ "content.js" ],
+            "js":  [ "youtube.js" ],
+            "css": [ "youtube.css" ],
             "matches": [ "https://www.youtube.com/*" ],
             "run_at": "document_start"
         }

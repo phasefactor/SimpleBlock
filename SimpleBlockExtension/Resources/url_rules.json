@@ -1,8 +1,7 @@
 [
-{"id":14512354123,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?googlevideo\\.com/generate_204.*",}},
-{"id":1451234123,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/pagead/.*",}},
-{"id":145134123,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/api/stats/ad.*",}},
-{"id":14523423,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/youtubei/v1/log_even.*",}},
+    
+
+
 
 { "id":1,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?1rx\\.io/.*",}},
 { "id":2,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?2mdn\\.net/.*",}},
