@@ -1,7 +1,9 @@
 div#masthead-ad,
 ytd-rich-item-renderer:has(div.ytd-ad-slot-renderer),
 ytd-ad-slot-renderer,
-div#player-ads {
+div#player-ads,
+ytd-popup-container,
+ytd-engagement-panel-section-list-renderer {
     display:  none   !important;
     height:   0px    !important;
     overflow: hidden !important;

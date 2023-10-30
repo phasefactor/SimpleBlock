@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE19C2BF2AED97A1000664F0 /* youtube.css in Resources */ = {isa = PBXBuildFile; fileRef = CE19C2BE2AED97A1000664F0 /* youtube.css */; };
+		CE19C2C12AEEAD12000664F0 /* youtube.json in Resources */ = {isa = PBXBuildFile; fileRef = CE19C2C02AEEAD12000664F0 /* youtube.json */; };
 		CE7481C92AD8AD3B00EAB57F /* SimpleBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7481C82AD8AD3B00EAB57F /* SimpleBlockApp.swift */; };
 		CE7481CB2AD8AD3B00EAB57F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7481CA2AD8AD3B00EAB57F /* ContentView.swift */; };
 		CE7481CD2AD8AD3C00EAB57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7481CC2AD8AD3C00EAB57F /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		CE19C2BE2AED97A1000664F0 /* youtube.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = youtube.css; sourceTree = "<group>"; };
+		CE19C2C02AEEAD12000664F0 /* youtube.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = youtube.json; sourceTree = "<group>"; };
 		CE7481C52AD8AD3B00EAB57F /* SimpleBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7481C82AD8AD3B00EAB57F /* SimpleBlockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBlockApp.swift; sourceTree = "<group>"; };
 		CE7481CA2AD8AD3B00EAB57F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				CE7481FA2AD8AF2F00EAB57F /* url_rules.json */,
 				CE7481E82AD8AD5E00EAB57F /* youtube.js */,
 				CE19C2BE2AED97A1000664F0 /* youtube.css */,
+				CE19C2C02AEEAD12000664F0 /* youtube.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				CE7481FB2AD8AF2F00EAB57F /* url_rules.json in Resources */,
 				CE7481E32AD8AD5E00EAB57F /* images in Resources */,
 				CE7481E52AD8AD5E00EAB57F /* manifest.json in Resources */,
+				CE19C2C12AEEAD12000664F0 /* youtube.json in Resources */,
 				CE7481E12AD8AD5E00EAB57F /* _locales in Resources */,
 				CE7481E92AD8AD5E00EAB57F /* youtube.js in Resources */,
 				CE7481EF2AD8AD5E00EAB57F /* popup.js in Resources */,

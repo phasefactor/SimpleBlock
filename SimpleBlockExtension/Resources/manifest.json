@@ -46,6 +46,11 @@
                 "id":       "URL",
                 "enabled":  true,
                 "path":     "url_rules.json"
+            },
+            {
+                "id":       "YouTube",
+                "enabled":  true,
+                "path":     "youtube.json"
             }
         ]
     },
