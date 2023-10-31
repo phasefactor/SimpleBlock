@@ -7,60 +7,35 @@
 //
 
 var actualCode = '(' + function() {
+    
+    // injected code
     console.log("content.js running");
-/*
-    _fetch = fetch;
-    let _vid = "";
-    let _loc = "";
-    
-    fetch = function () {
-        let url = "";
-        
-        if (arguments[0] instanceof Request) {
-            url = arguments[0].url;
+
+    let waitForAd = function () {
+        if (!document.querySelectorAll(".html5-video-player:not(.ad-showing):not(.ytp-ad-overlay-open)").length) {
+            // showing an ad
+            console.log("Ad running");
+            console.log("trying to clear ad");
+            let button = document.querySelectorAll(".ytp-ad-skip-button-slot");
+            
+            if (button.length) {
+                button[0].click();
+            }
+            
         } else {
-            url = arguments[0];
+            // keep waiting
+            console.log("No ad");
         }
         
-        
-        if (url.includes("googlevideo.com/videoplayback")) {
-            let params = new URLSearchParams(url);
-            
-            
-            let id = params.get("id");
-            
-            if (_loc != window.location.href) {
-                console.log("new location");
-                _loc = window.location.href;
-                _vid = "";
-            }
-            
-            if (id != null) {
-                if (_vid == "") {
-                    _vid = id;
-                    console.log("new id");
-                }
-                
-                if (_vid != id) {
-               //     arguments = [];
-                    console.log("dropping fetch for ID:", id);
-                } else {
-                    console.log("fetching ID:", id);
-                }
-            }
-        }
-        
-        return _fetch.apply(this, arguments);
-    }
-*/
+        setTimeout(waitForAd, 1000);
+    };
     
+    setTimeout(waitForAd, 1000);
+    
+    // script injection code
 } + ')();';
 
 var script = document.createElement('script');
 script.textContent = actualCode;
 (document.head||document.documentElement).appendChild(script);
 script.remove();
-
-/*
- 
- */

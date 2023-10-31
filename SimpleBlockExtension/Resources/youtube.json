@@ -1,24 +1,24 @@
 [
     {"id":1001,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/generate_204.*",}},
-    {"id":1002,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?googlevideo\\.com/generate_204.*",}},
-    {"id":1001,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?ytimg\\.com/generate_204.*",}},
+    {"id":1010,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?googlevideo\\.com/generate_204.*",}},
+    {"id":1020,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?ytimg\\.com/generate_204.*",}},
     
-    {"id":1000,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/error_204.*",}},
+    {"id":1030,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/error_204.*",}},
     
-    {"id":1003,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/pagead/.*",}},
-    {"id":1019,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?google\\.com/pagead/.*",}},
+    {"id":1040,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/pagead/.*",}},
+    {"id":1050,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?google\\.com/pagead/.*",}},
     
-    {"id":1004,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/api/stats/ad.*",}},
-    {"id":1005,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/api/stats/qoe.*",}},
-    {"id":1006,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/api/stats/atr.*",}},
-    {"id":1007,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/api/stats/watchtime.*",}},
-    {"id":1008,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/api/stats/delayplay.*",}},
-    {"id":1009,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/api/stats/playback.*",}},
+    {"id":1060,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/api/stats/ad.*",}},
+    {"id":1070,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/api/stats/qoe.*",}},
+    {"id":1080,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/api/stats/atr.*",}},
+    {"id":1090,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/api/stats/watchtime.*",}},
+    {"id":1100,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/api/stats/delayplay.*",}},
+    {"id":1110,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/api/stats/playback.*",}},
     
-    {"id":1010,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/ptracking.*",}},
+    {"id":1120,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/ptracking.*",}},
     
-    {"id":1017,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/youtubei/v1/log_even.*",}},
-    {"id":1018,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?play\\.google\\.com/log.*",}},
+    {"id":1130,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/youtubei/v1/log_even.*",}},
+    {"id":1140,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?play\\.google\\.com/log.*",}},
     
-    {"id":1020,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/pcs/activeview.*",}},
+    {"id":1150,"priority":1,"action":{"type":"block"},"condition":{"regexFilter":"http(s)?://(.*\\.)?youtube\\.com/pcs/activeview.*",}},
 ]
