@@ -25,6 +25,7 @@
 		CE7481F32AD8AD5E00EAB57F /* SimpleBlockExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CE7481DB2AD8AD5E00EAB57F /* SimpleBlockExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CE7481FB2AD8AF2F00EAB57F /* url_rules.json in Resources */ = {isa = PBXBuildFile; fileRef = CE7481FA2AD8AF2F00EAB57F /* url_rules.json */; };
 		CE74823B2AD9794E00EAB57F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE74823A2AD9794E00EAB57F /* README.md */; };
+		CEA032A42AF9327F000BEBAE /* amazon.css in Resources */ = {isa = PBXBuildFile; fileRef = CEA032A32AF9327F000BEBAE /* amazon.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		CE7481FA2AD8AF2F00EAB57F /* url_rules.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = url_rules.json; sourceTree = "<group>"; };
 		CE7482392AD8D66800EAB57F /* SimpleBlockExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleBlockExtension.entitlements; sourceTree = "<group>"; };
 		CE74823A2AD9794E00EAB57F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEA032A32AF9327F000BEBAE /* amazon.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = amazon.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				CE7481E82AD8AD5E00EAB57F /* youtube.js */,
 				CE19C2BE2AED97A1000664F0 /* youtube.css */,
 				CE19C2C02AEEAD12000664F0 /* youtube.json */,
+				CEA032A32AF9327F000BEBAE /* amazon.css */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				CE7481E72AD8AD5E00EAB57F /* background.js in Resources */,
 				CE7481ED2AD8AD5E00EAB57F /* popup.css in Resources */,
 				CE7481EB2AD8AD5E00EAB57F /* popup.html in Resources */,
+				CEA032A42AF9327F000BEBAE /* amazon.css in Resources */,
 				CE19C2BF2AED97A1000664F0 /* youtube.css in Resources */,
 				CE7481FB2AD8AF2F00EAB57F /* url_rules.json in Resources */,
 				CE7481E32AD8AD5E00EAB57F /* images in Resources */,

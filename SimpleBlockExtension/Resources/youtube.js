@@ -10,7 +10,50 @@ var actualCode = '(' + function() {
     
     // injected code
     console.log("content.js running");
-
+    
+    _fetch = fetch;
+    
+    
+    fetch = function () {
+        let url = "";
+        
+        if (arguments[0] instanceof Request) {
+            url = arguments[0].url;
+        } else {
+            url = arguments[0];
+        }
+            
+        
+        if (url.includes("googlevideo.com/videoplayback")) {
+            let params = new URLSearchParams(url.split("?")[1]);
+            
+            params.delete("pot");
+            params.delete("ctier");
+            
+            url = "" + url.split("?")[0] + "?" + params.toString();
+        }
+        
+        
+        if (arguments[0] instanceof Request) {
+            arguments[0].url = url;
+        } else {
+            arguments[0] = url;
+        }
+        
+        return _fetch.apply(this, arguments);
+    }
+    
+    
+    // cleans up the stream of error messages in the console
+    setTimeout(() => {
+        if (yt) {
+            // setting these null seems to stop the console spam
+            yt.ads = null;
+            yt.ads_ = null;
+        }
+    }, 2000);
+    
+/*
     let waitForAd = function () {
         if (!document.querySelectorAll(".html5-video-player:not(.ad-showing):not(.ytp-ad-overlay-open)").length) {
             // showing an ad
@@ -31,7 +74,9 @@ var actualCode = '(' + function() {
     };
     
     setTimeout(waitForAd, 1000);
-    
+ */
+ 
+ 
     // script injection code
 } + ')();';
 

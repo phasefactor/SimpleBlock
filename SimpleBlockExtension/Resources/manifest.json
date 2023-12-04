@@ -25,6 +25,12 @@
             "css": [ "youtube.css" ],
             "matches": [ "https://www.youtube.com/*" ],
             "run_at": "document_start"
+        },
+        {
+            "js": [],
+            "css": [ "amazon.css" ],
+            "matches": [ "https://www.amazon.com/*" ],
+            "run_at": "document_start"
         }
     ],
 

@@ -1,0 +1,11 @@
+div#percolate-ui-ilm_div,
+div.s-left-ads-item,
+div.AdHolder,
+div[data-ad-details],
+div#desktop-ad-center-1,
+div.sg-col-20-of-20 {
+    display:  none   !important;
+    height:   0px    !important;
+    overflow: hidden !important;
+    z-index:  -1     !important;
+}
