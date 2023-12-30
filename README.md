@@ -14,7 +14,7 @@ Safari has supported multiple types of content blocker in the past decade.  The 
 - [Blocking content with your Safari web extension](https://developer.apple.com/documentation/safariservices/safari_web_extensions/blocking_content_with_your_safari_web_extension)
 - [What’s new in Safari extensions - WWDC23](https://developer.apple.com/videos/play/wwdc2023/10119/) - updates to `declarativeNetRequest`
 
-NOTE: This is ***NOT*** what is described in the [Creating a content blocker](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker) article.  This was introduced at WWDC15, but does still apply to making content blocking rules inside of `WKWebView` with `WKContentRuleList`.
+NOTE: This is ***NOT*** what is described in the [Creating a content blocker](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker) article.  This was introduced at WWDC15, and does still apply to making content blocking rules inside of `WKWebView` with `WKContentRuleList` but NOT to Safari extensions.
 
 ### Rules
 
