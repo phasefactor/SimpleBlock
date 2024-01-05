@@ -13,7 +13,6 @@ var actualCode = '(' + function() {
     
     _fetch = fetch;
     
-    
     fetch = function () {
         let url = "";
         
@@ -23,15 +22,15 @@ var actualCode = '(' + function() {
             url = arguments[0];
         }
             
-        
-        if (url.includes("googlevideo.com/videoplayback")) {
-            let params = new URLSearchParams(url.split("?")[1]);
-            
-            params.delete("pot");
-            params.delete("ctier");
-            
-            url = "" + url.split("?")[0] + "?" + params.toString();
-        }
+        // attempting to identity what is an ad
+     //   if (url.includes("googlevideo.com/videoplayback")) {
+            // let params = new URLSearchParams(url.split("?")[1]);
+            // url = url.split("?")[0] + "?" + params.toString();
+     //       if (url.split("?")[1].includes("ctier=")) {
+           //     console.log("DROPPING FETCH", arguments[0]);
+          //      url = "http://127.0.0.1";
+     //       }
+     //   }
         
         
         if (arguments[0] instanceof Request) {
@@ -77,7 +76,7 @@ var actualCode = '(' + function() {
  */
  
  
-    // script injection code
+// script injection code
 } + ')();';
 
 var script = document.createElement('script');
